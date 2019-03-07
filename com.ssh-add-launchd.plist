@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
    <key>Label</key>
-        <string>com.midsandhighs.ssh</string>
+        <string>com.$user.ssh</string>
 
     <key>ProgramArguments</key>
         <array>
         	<string>/bin/bash</string>
-        	<string>/Users/jonathan.haenchen/git/ssh_add_agent.sh</string>
+        	<string>/path/to/ssh_add_agent.sh</string>
         </array>
 
     <key>RunAtLoad</key>

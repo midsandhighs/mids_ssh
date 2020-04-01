@@ -17,15 +17,17 @@ components
 
 usage
 -----
-**REQUIRED**
-* In *com.ssh-manage-launchd.plist*  
-- * Edit **Label** to replace `$user` (I use `com.midsandhighs.ssh`)
-- * Edit **ProgramArguments** with the correct path of the `ssh_add_agent.sh` script in the second portion of the array
-**OPTIONAL**
-* In *com.ssh-manage-launchd.plist*
-- * Edit **StartCalendarInterval** with your own schedule
 
-`Why don't you do this in cron?`
+**REQUIRED**
+In *com.ssh-manage-launchd.plist*  
+* Edit **Label** to replace `$user` (I use `com.midsandhighs.ssh`)
+* Edit **ProgramArguments** with the correct path of the `ssh_add_agent.sh` script in the second portion of the array
+
+**OPTIONAL**
+In *com.ssh-manage-launchd.plist*
+* Edit **StartCalendarInterval** with your own schedule
+
+Why don't you do this in cron?
 ----------------
 You can do cron on macOS, but `launchd` is officially supported and behaves better. 
 

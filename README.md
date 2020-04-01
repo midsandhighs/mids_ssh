@@ -1,7 +1,7 @@
 ssh-manage-launchd
 ===============
 
-I use macOS but want to keep my ssh `.config` file device-agnostic. I hate having to run ssh-add after on macOS to make sure my ssh-agent properly forwards my keys when connecting to remote destinations. 
+I use macOS but want to keep my ssh `.config` file device-agnostic. I hate having to run `ssh-add` after discovering my ssh-agent isn't properly forwarding my keys when connecting to remote destinations. 
 
 This solves that problem for me and it may for you, too.
 

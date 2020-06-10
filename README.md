@@ -13,7 +13,7 @@ components
 *ssh_manage_agent.sh* - script that purges and re-adds identities to the `ssh-agent` then prints output
 
 *com.ssh-manage-launchd.plist* - launchd plist that needs to be placed in `~/Library/LaunchAgents/`
-* scheduled to run at user login and at 0700 every day in your timezone.
+* scheduled to run at user login and at 0700 every day in the time zone of your device.
 
 usage
 -----
@@ -22,6 +22,7 @@ usage
 In *com.ssh-manage-launchd.plist*  
 * Edit **Label** to replace `$user` (I use `com.midsandhighs.ssh`)
 * Edit **ProgramArguments** with the correct path of the `ssh_add_agent.sh` script in the second portion of the array
+* * I place this in `~/Library/Application Scripts/`
 
 **OPTIONAL**
 In *com.ssh-manage-launchd.plist*

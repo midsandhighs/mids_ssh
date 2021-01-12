@@ -5,7 +5,7 @@ I use macOS but want to keep my ssh `.config` file device-agnostic. I hate havin
 
 This solves that problem for me and it may for you, too.
 
-_Tested on 10.13.x, 10.14.x, 10.15.x_
+_Tested on macOS 10.13.x, 10.14.x, 10.15.x, and 11.x
 
 components
 ----------
@@ -13,7 +13,7 @@ components
 *ssh_manage_agent.sh* - script that purges and re-adds identities to the `ssh-agent` then prints output
 
 *com.ssh-manage-launchd.plist* - launchd plist that needs to be placed in `~/Library/LaunchAgents/`
-* scheduled to run at user login and at 0700 every day in the time zone of your device.
+* scheduled to run at user login and at 0900 every day in the time zone of your device.
 
 usage
 -----

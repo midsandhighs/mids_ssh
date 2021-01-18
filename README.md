@@ -5,7 +5,7 @@ I use macOS but want to keep my ssh `.config` file device-agnostic. I hate havin
 
 This solves that problem for me and it may for you, too.
 
-_Tested on macOS 10.13.x, 10.14.x, 10.15.x, and 11.x
+`Tested on macOS 10.13.x, 10.14.x, 10.15.x, and 11.x`
 
 components
 ----------

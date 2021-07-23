@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # debug
 # set -ex
@@ -6,7 +6,7 @@
 # date variables
 timestamp=`date '+%Y-%m-%d %H:%M:%S'`
 # define logfile
-log=/tmp/ssh_manage.log
+log= "$HOME/opt/ssh_manage.log"
 
 printf "Ran at $timestamp \n --- \n" >> $log
 

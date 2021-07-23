@@ -1,0 +1,15 @@
+#/bin/zsh
+
+if [ -d $HOME/Library/LaunchAgents/ ]; 
+    then
+    echo '$HOME/Library/LaunchAgents/ exists!'
+    echo 'copying property list'
+    cp -v com.ssh-manage-launchd.plist ~/Library/LaunchAgents/
+else
+    echo 'creating agent directory for user level jobs'
+    mkdir  ~/Library/LaunchAgents/
+    echo 'copying property list'
+    cp -v com.ssh-manage-launchd.plist ~/Library/LaunchAgents/
+fi
+
+echo "Load it!"

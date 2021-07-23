@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.$user.ssh</string>
+	<string>com.midsandhighs.ssh_keyload</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/bin/bash</string>
+		<string>/bin/zsh</string>
 		<string>/path/to/ssh_manage_agent.sh</string>
 	</array>
 	<key>RunAtLoad</key>
@@ -14,9 +14,9 @@
 	<key>StartCalendarInterval</key>
 	<dict>
 		<key>Hour</key>
-		<integer>9</integer>
+		<integer>7</integer>
 		<key>Minute</key>
-		<integer>0</integer>
+		<integer>15</integer>
 	</dict>
 </dict>
 </plist>
